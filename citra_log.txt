@@ -1,0 +1,330 @@
+[   0.000240] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_createLogFile:589: Logging backend initialised
+[   0.000402] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_logUserDirectory:596: User directory path: content://com.android.externalstorage.documents/tree/primary%3AOld_games%2FROM
+[   0.024435] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[   0.460706] Frontend <Error> main/jni/native_log.cpp:Java_org_citra_citra_1emu_utils_Log_error:23: [FileUtil]: Cannot list file error: Invalid URI: 
+[  17.803460] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 104.470302] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 139.038221] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 141.068090] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[ 141.069118] Frontend <Info> main/jni/native.cpp:RunCitra:136: Citra starting...
+[ 141.122380] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 141.135263] Config <Info> common/settings.cpp:LogSettings:83: Citra Configuration:
+[ 141.135299] Config <Info> common/settings.cpp:operator():80: Core_UseCpuJit: true
+[ 141.135330] Config <Info> common/settings.cpp:operator():80: Core_CPUClockPercentage: 100
+[ 141.135336] Config <Info> common/settings.cpp:operator():80: Renderer_UseGLES: true
+[ 141.135339] Config <Info> common/settings.cpp:operator():80: Renderer_GraphicsAPI: OpenGL
+[ 141.135342] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncShaders: true
+[ 141.135346] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncPresentation: true
+[ 141.135349] Config <Info> common/settings.cpp:operator():80: Renderer_SpirvShaderGen: true
+[ 141.135352] Config <Info> common/settings.cpp:operator():80: Renderer_Debug: false
+[ 141.135355] Config <Info> common/settings.cpp:operator():80: Renderer_UseHwShader: true
+[ 141.135358] Config <Info> common/settings.cpp:operator():80: Renderer_ShadersAccurateMul: false
+[ 141.135360] Config <Info> common/settings.cpp:operator():80: Renderer_UseShaderJit: true
+[ 141.135363] Config <Info> common/settings.cpp:operator():80: Renderer_UseResolutionFactor: 1
+[ 141.135366] Config <Info> common/settings.cpp:operator():80: Renderer_FrameLimit: 100
+[ 141.135374] Config <Info> common/settings.cpp:operator():80: Renderer_VSyncNew: true
+[ 141.135378] Config <Info> common/settings.cpp:operator():80: Renderer_PostProcessingShader: none (builtin)
+[ 141.135380] Config <Info> common/settings.cpp:operator():80: Renderer_FilterMode: true
+[ 141.135384] Config <Info> common/settings.cpp:operator():80: Renderer_TextureFilter: None
+[ 141.135387] Config <Info> common/settings.cpp:operator():80: Renderer_TextureSampling: GameControlled
+[ 141.135392] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Render3d: 0
+[ 141.135395] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Factor3d: 0
+[ 141.135398] Config <Info> common/settings.cpp:operator():80: Stereoscopy_MonoRenderOption: 0
+[ 141.135419] Config <Info> common/settings.cpp:operator():80: Layout_LayoutOption: 6
+[ 141.135422] Config <Info> common/settings.cpp:operator():80: Layout_SwapScreen: false
+[ 141.135426] Config <Info> common/settings.cpp:operator():80: Layout_UprightScreen: false
+[ 141.135434] Config <Info> common/settings.cpp:operator():80: Layout_LargeScreenProportion: 4
+[ 141.135437] Config <Info> common/settings.cpp:operator():80: Utility_DumpTextures: false
+[ 141.135439] Config <Info> common/settings.cpp:operator():80: Utility_CustomTextures: false
+[ 141.135442] Config <Info> common/settings.cpp:operator():80: Utility_PreloadTextures: false
+[ 141.135445] Config <Info> common/settings.cpp:operator():80: Utility_AsyncCustomLoading: true
+[ 141.135448] Config <Info> common/settings.cpp:operator():80: Utility_UseDiskShaderCache: true
+[ 141.135453] Config <Info> common/settings.cpp:operator():80: Audio_Emulation: HLE
+[ 141.135456] Config <Info> common/settings.cpp:operator():80: Audio_OutputType: 0
+[ 141.135459] Config <Info> common/settings.cpp:operator():80: Audio_OutputDevice: auto
+[ 141.135462] Config <Info> common/settings.cpp:operator():80: Audio_InputType: 0
+[ 141.135466] Config <Info> common/settings.cpp:operator():80: Audio_InputDevice: auto
+[ 141.135471] Config <Info> common/settings.cpp:operator():80: Audio_EnableAudioStretching: true
+[ 141.135474] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightName: ndk
+[ 141.135477] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightConfig: _back
+[ 141.135479] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightFlip: 0
+[ 141.135482] Config <Info> common/settings.cpp:operator():80: Camera_InnerName: ndk
+[ 141.135484] Config <Info> common/settings.cpp:operator():80: Camera_InnerConfig: _front
+[ 141.135486] Config <Info> common/settings.cpp:operator():80: Camera_InnerFlip: 0
+[ 141.135489] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftName: ndk
+[ 141.135491] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftConfig: _back
+[ 141.135493] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftFlip: 0
+[ 141.135496] Config <Info> common/settings.cpp:operator():80: DataStorage_UseVirtualSd: true
+[ 141.135499] Config <Info> common/settings.cpp:operator():80: DataStorage_UseCustomStorage: false
+[ 141.135516] Config <Info> common/settings.cpp:operator():80: System_IsNew3ds: true
+[ 141.135519] Config <Info> common/settings.cpp:operator():80: System_LLEApplets: false
+[ 141.135521] Config <Info> common/settings.cpp:operator():80: System_RegionValue: -1
+[ 141.135524] Config <Info> common/settings.cpp:operator():80: System_PluginLoader: false
+[ 141.135526] Config <Info> common/settings.cpp:operator():80: System_PluginLoaderAllowed: true
+[ 141.135529] Config <Info> common/settings.cpp:operator():80: Debugging_DelayStartForLLEModules: true
+[ 141.135531] Config <Info> common/settings.cpp:operator():80: Debugging_UseGdbstub: false
+[ 141.135534] Config <Info> common/settings.cpp:operator():80: Debugging_GdbstubPort: 24689
+[ 141.142620] Core <Critical> core/core.cpp:Load:265: Failed to obtain loader for content://com.android.externalstorage.documents/tree/primary%3AOld_games%2FROM/document/primary%3AOld_games%2FROM%2F3DS0511%20-%20Pokemon%20X%20(USA).3ds.7z!
+[ 144.342149] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[ 144.342538] Frontend <Info> main/jni/native.cpp:RunCitra:136: Citra starting...
+[ 144.387257] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 144.393827] Config <Info> common/settings.cpp:LogSettings:83: Citra Configuration:
+[ 144.393848] Config <Info> common/settings.cpp:operator():80: Core_UseCpuJit: true
+[ 144.393853] Config <Info> common/settings.cpp:operator():80: Core_CPUClockPercentage: 100
+[ 144.393876] Config <Info> common/settings.cpp:operator():80: Renderer_UseGLES: true
+[ 144.393879] Config <Info> common/settings.cpp:operator():80: Renderer_GraphicsAPI: OpenGL
+[ 144.393882] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncShaders: true
+[ 144.393886] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncPresentation: true
+[ 144.393889] Config <Info> common/settings.cpp:operator():80: Renderer_SpirvShaderGen: true
+[ 144.393892] Config <Info> common/settings.cpp:operator():80: Renderer_Debug: false
+[ 144.393895] Config <Info> common/settings.cpp:operator():80: Renderer_UseHwShader: true
+[ 144.393902] Config <Info> common/settings.cpp:operator():80: Renderer_ShadersAccurateMul: false
+[ 144.393904] Config <Info> common/settings.cpp:operator():80: Renderer_UseShaderJit: true
+[ 144.393907] Config <Info> common/settings.cpp:operator():80: Renderer_UseResolutionFactor: 1
+[ 144.393910] Config <Info> common/settings.cpp:operator():80: Renderer_FrameLimit: 100
+[ 144.393913] Config <Info> common/settings.cpp:operator():80: Renderer_VSyncNew: true
+[ 144.393916] Config <Info> common/settings.cpp:operator():80: Renderer_PostProcessingShader: none (builtin)
+[ 144.393919] Config <Info> common/settings.cpp:operator():80: Renderer_FilterMode: true
+[ 144.393922] Config <Info> common/settings.cpp:operator():80: Renderer_TextureFilter: None
+[ 144.393925] Config <Info> common/settings.cpp:operator():80: Renderer_TextureSampling: GameControlled
+[ 144.393929] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Render3d: 0
+[ 144.393932] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Factor3d: 0
+[ 144.393935] Config <Info> common/settings.cpp:operator():80: Stereoscopy_MonoRenderOption: 0
+[ 144.393939] Config <Info> common/settings.cpp:operator():80: Layout_LayoutOption: 6
+[ 144.393942] Config <Info> common/settings.cpp:operator():80: Layout_SwapScreen: false
+[ 144.393947] Config <Info> common/settings.cpp:operator():80: Layout_UprightScreen: false
+[ 144.393954] Config <Info> common/settings.cpp:operator():80: Layout_LargeScreenProportion: 4
+[ 144.393957] Config <Info> common/settings.cpp:operator():80: Utility_DumpTextures: false
+[ 144.393959] Config <Info> common/settings.cpp:operator():80: Utility_CustomTextures: false
+[ 144.393962] Config <Info> common/settings.cpp:operator():80: Utility_PreloadTextures: false
+[ 144.393965] Config <Info> common/settings.cpp:operator():80: Utility_AsyncCustomLoading: true
+[ 144.393967] Config <Info> common/settings.cpp:operator():80: Utility_UseDiskShaderCache: true
+[ 144.393973] Config <Info> common/settings.cpp:operator():80: Audio_Emulation: HLE
+[ 144.393976] Config <Info> common/settings.cpp:operator():80: Audio_OutputType: 0
+[ 144.393978] Config <Info> common/settings.cpp:operator():80: Audio_OutputDevice: auto
+[ 144.393982] Config <Info> common/settings.cpp:operator():80: Audio_InputType: 0
+[ 144.393985] Config <Info> common/settings.cpp:operator():80: Audio_InputDevice: auto
+[ 144.393988] Config <Info> common/settings.cpp:operator():80: Audio_EnableAudioStretching: true
+[ 144.393991] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightName: ndk
+[ 144.393995] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightConfig: _back
+[ 144.393997] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightFlip: 0
+[ 144.394000] Config <Info> common/settings.cpp:operator():80: Camera_InnerName: ndk
+[ 144.394002] Config <Info> common/settings.cpp:operator():80: Camera_InnerConfig: _front
+[ 144.394006] Config <Info> common/settings.cpp:operator():80: Camera_InnerFlip: 0
+[ 144.394008] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftName: ndk
+[ 144.394011] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftConfig: _back
+[ 144.394013] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftFlip: 0
+[ 144.394016] Config <Info> common/settings.cpp:operator():80: DataStorage_UseVirtualSd: true
+[ 144.394018] Config <Info> common/settings.cpp:operator():80: DataStorage_UseCustomStorage: false
+[ 144.394021] Config <Info> common/settings.cpp:operator():80: System_IsNew3ds: true
+[ 144.394024] Config <Info> common/settings.cpp:operator():80: System_LLEApplets: false
+[ 144.394027] Config <Info> common/settings.cpp:operator():80: System_RegionValue: -1
+[ 144.394030] Config <Info> common/settings.cpp:operator():80: System_PluginLoader: false
+[ 144.394032] Config <Info> common/settings.cpp:operator():80: System_PluginLoaderAllowed: true
+[ 144.394036] Config <Info> common/settings.cpp:operator():80: Debugging_DelayStartForLLEModules: true
+[ 144.394038] Config <Info> common/settings.cpp:operator():80: Debugging_UseGdbstub: false
+[ 144.394041] Config <Info> common/settings.cpp:operator():80: Debugging_GdbstubPort: 24689
+[ 144.394065] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[ 144.394073] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[ 144.394079] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory motion_emu already registered
+[ 144.401960] Core <Critical> core/core.cpp:Load:265: Failed to obtain loader for content://com.android.externalstorage.documents/tree/primary%3AOld_games%2FROM/document/primary%3AOld_games%2FROM%2F3DS0511%20-%20Pokemon%20X%20(USA).3ds.7z!
+[ 258.443685] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[ 260.913440] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[ 260.913908] Frontend <Info> main/jni/native.cpp:RunCitra:136: Citra starting...
+[ 260.970349] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 260.986624] Config <Info> common/settings.cpp:LogSettings:83: Citra Configuration:
+[ 260.986662] Config <Info> common/settings.cpp:operator():80: Core_UseCpuJit: true
+[ 260.986668] Config <Info> common/settings.cpp:operator():80: Core_CPUClockPercentage: 100
+[ 260.986673] Config <Info> common/settings.cpp:operator():80: Renderer_UseGLES: true
+[ 260.986676] Config <Info> common/settings.cpp:operator():80: Renderer_GraphicsAPI: OpenGL
+[ 260.986688] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncShaders: true
+[ 260.986968] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncPresentation: true
+[ 260.987012] Config <Info> common/settings.cpp:operator():80: Renderer_SpirvShaderGen: true
+[ 260.987016] Config <Info> common/settings.cpp:operator():80: Renderer_Debug: false
+[ 260.987019] Config <Info> common/settings.cpp:operator():80: Renderer_UseHwShader: true
+[ 260.987027] Config <Info> common/settings.cpp:operator():80: Renderer_ShadersAccurateMul: false
+[ 260.987030] Config <Info> common/settings.cpp:operator():80: Renderer_UseShaderJit: true
+[ 260.987033] Config <Info> common/settings.cpp:operator():80: Renderer_UseResolutionFactor: 1
+[ 260.987036] Config <Info> common/settings.cpp:operator():80: Renderer_FrameLimit: 100
+[ 260.987039] Config <Info> common/settings.cpp:operator():80: Renderer_VSyncNew: true
+[ 260.987065] Config <Info> common/settings.cpp:operator():80: Renderer_PostProcessingShader: none (builtin)
+[ 260.987068] Config <Info> common/settings.cpp:operator():80: Renderer_FilterMode: true
+[ 260.987073] Config <Info> common/settings.cpp:operator():80: Renderer_TextureFilter: None
+[ 260.987076] Config <Info> common/settings.cpp:operator():80: Renderer_TextureSampling: GameControlled
+[ 260.987081] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Render3d: 0
+[ 260.987084] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Factor3d: 0
+[ 260.987087] Config <Info> common/settings.cpp:operator():80: Stereoscopy_MonoRenderOption: 0
+[ 260.987095] Config <Info> common/settings.cpp:operator():80: Layout_LayoutOption: 6
+[ 260.987098] Config <Info> common/settings.cpp:operator():80: Layout_SwapScreen: false
+[ 260.987100] Config <Info> common/settings.cpp:operator():80: Layout_UprightScreen: false
+[ 260.987128] Config <Info> common/settings.cpp:operator():80: Layout_LargeScreenProportion: 4
+[ 260.987131] Config <Info> common/settings.cpp:operator():80: Utility_DumpTextures: false
+[ 260.987135] Config <Info> common/settings.cpp:operator():80: Utility_CustomTextures: false
+[ 260.987138] Config <Info> common/settings.cpp:operator():80: Utility_PreloadTextures: false
+[ 260.987140] Config <Info> common/settings.cpp:operator():80: Utility_AsyncCustomLoading: true
+[ 260.987145] Config <Info> common/settings.cpp:operator():80: Utility_UseDiskShaderCache: true
+[ 260.987150] Config <Info> common/settings.cpp:operator():80: Audio_Emulation: HLE
+[ 260.987153] Config <Info> common/settings.cpp:operator():80: Audio_OutputType: 0
+[ 260.987156] Config <Info> common/settings.cpp:operator():80: Audio_OutputDevice: auto
+[ 260.987159] Config <Info> common/settings.cpp:operator():80: Audio_InputType: 0
+[ 260.987161] Config <Info> common/settings.cpp:operator():80: Audio_InputDevice: auto
+[ 260.987165] Config <Info> common/settings.cpp:operator():80: Audio_EnableAudioStretching: true
+[ 260.987170] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightName: ndk
+[ 260.987173] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightConfig: _back
+[ 260.987175] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightFlip: 0
+[ 260.987179] Config <Info> common/settings.cpp:operator():80: Camera_InnerName: ndk
+[ 260.987181] Config <Info> common/settings.cpp:operator():80: Camera_InnerConfig: _front
+[ 260.987183] Config <Info> common/settings.cpp:operator():80: Camera_InnerFlip: 0
+[ 260.987186] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftName: ndk
+[ 260.987188] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftConfig: _back
+[ 260.987192] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftFlip: 0
+[ 260.987195] Config <Info> common/settings.cpp:operator():80: DataStorage_UseVirtualSd: true
+[ 260.987198] Config <Info> common/settings.cpp:operator():80: DataStorage_UseCustomStorage: false
+[ 260.987202] Config <Info> common/settings.cpp:operator():80: System_IsNew3ds: true
+[ 260.987204] Config <Info> common/settings.cpp:operator():80: System_LLEApplets: false
+[ 260.987207] Config <Info> common/settings.cpp:operator():80: System_RegionValue: -1
+[ 260.987210] Config <Info> common/settings.cpp:operator():80: System_PluginLoader: false
+[ 260.987213] Config <Info> common/settings.cpp:operator():80: System_PluginLoaderAllowed: true
+[ 260.987215] Config <Info> common/settings.cpp:operator():80: Debugging_DelayStartForLLEModules: true
+[ 260.987218] Config <Info> common/settings.cpp:operator():80: Debugging_UseGdbstub: false
+[ 260.987221] Config <Info> common/settings.cpp:operator():80: Debugging_GdbstubPort: 24689
+[ 260.987291] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[ 260.987298] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[ 260.987303] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory motion_emu already registered
+[ 260.998767] Core <Critical> core/core.cpp:Load:265: Failed to obtain loader for content://com.android.externalstorage.documents/tree/primary%3AOld_games%2FROM/document/primary%3AOld_games%2FROM%2F3DS0511%20-%20Pokemon%20X%20(USA).3ds.7z!
+[ 554.458594] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 570.865767] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 607.100882] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 634.904770] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 658.423894] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 667.615926] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 683.496104] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 694.395708] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 707.287892] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 709.854571] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[ 709.855073] Frontend <Info> main/jni/native.cpp:RunCitra:136: Citra starting...
+[ 709.890957] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[ 709.904457] Config <Info> common/settings.cpp:LogSettings:83: Citra Configuration:
+[ 709.904481] Config <Info> common/settings.cpp:operator():80: Core_UseCpuJit: true
+[ 709.904487] Config <Info> common/settings.cpp:operator():80: Core_CPUClockPercentage: 110
+[ 709.904492] Config <Info> common/settings.cpp:operator():80: Renderer_UseGLES: true
+[ 709.904525] Config <Info> common/settings.cpp:operator():80: Renderer_GraphicsAPI: Vulkan
+[ 709.904529] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncShaders: false
+[ 709.904533] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncPresentation: true
+[ 709.904536] Config <Info> common/settings.cpp:operator():80: Renderer_SpirvShaderGen: true
+[ 709.904539] Config <Info> common/settings.cpp:operator():80: Renderer_Debug: false
+[ 709.904542] Config <Info> common/settings.cpp:operator():80: Renderer_UseHwShader: true
+[ 709.904546] Config <Info> common/settings.cpp:operator():80: Renderer_ShadersAccurateMul: false
+[ 709.904548] Config <Info> common/settings.cpp:operator():80: Renderer_UseShaderJit: true
+[ 709.904556] Config <Info> common/settings.cpp:operator():80: Renderer_UseResolutionFactor: 1
+[ 709.904559] Config <Info> common/settings.cpp:operator():80: Renderer_FrameLimit: 100
+[ 709.904562] Config <Info> common/settings.cpp:operator():80: Renderer_VSyncNew: false
+[ 709.904565] Config <Info> common/settings.cpp:operator():80: Renderer_PostProcessingShader: none (builtin)
+[ 709.904568] Config <Info> common/settings.cpp:operator():80: Renderer_FilterMode: true
+[ 709.904571] Config <Info> common/settings.cpp:operator():80: Renderer_TextureFilter: None
+[ 709.904574] Config <Info> common/settings.cpp:operator():80: Renderer_TextureSampling: GameControlled
+[ 709.904580] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Render3d: 0
+[ 709.904582] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Factor3d: 0
+[ 709.904585] Config <Info> common/settings.cpp:operator():80: Stereoscopy_MonoRenderOption: 0
+[ 709.904589] Config <Info> common/settings.cpp:operator():80: Layout_LayoutOption: 6
+[ 709.904593] Config <Info> common/settings.cpp:operator():80: Layout_SwapScreen: false
+[ 709.904595] Config <Info> common/settings.cpp:operator():80: Layout_UprightScreen: false
+[ 709.904605] Config <Info> common/settings.cpp:operator():80: Layout_LargeScreenProportion: 4
+[ 709.904608] Config <Info> common/settings.cpp:operator():80: Utility_DumpTextures: false
+[ 709.904611] Config <Info> common/settings.cpp:operator():80: Utility_CustomTextures: false
+[ 709.904613] Config <Info> common/settings.cpp:operator():80: Utility_PreloadTextures: false
+[ 709.904616] Config <Info> common/settings.cpp:operator():80: Utility_AsyncCustomLoading: true
+[ 709.904619] Config <Info> common/settings.cpp:operator():80: Utility_UseDiskShaderCache: true
+[ 709.904621] Config <Info> common/settings.cpp:operator():80: Audio_Emulation: HLE
+[ 709.904645] Config <Info> common/settings.cpp:operator():80: Audio_OutputType: 0
+[ 709.904648] Config <Info> common/settings.cpp:operator():80: Audio_OutputDevice: auto
+[ 709.904652] Config <Info> common/settings.cpp:operator():80: Audio_InputType: 0
+[ 709.904654] Config <Info> common/settings.cpp:operator():80: Audio_InputDevice: auto
+[ 709.904658] Config <Info> common/settings.cpp:operator():80: Audio_EnableAudioStretching: true
+[ 709.904678] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightName: ndk
+[ 709.904680] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightConfig: _back
+[ 709.904683] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightFlip: 0
+[ 709.904686] Config <Info> common/settings.cpp:operator():80: Camera_InnerName: ndk
+[ 709.904689] Config <Info> common/settings.cpp:operator():80: Camera_InnerConfig: _front
+[ 709.904693] Config <Info> common/settings.cpp:operator():80: Camera_InnerFlip: 0
+[ 709.904696] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftName: ndk
+[ 709.904698] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftConfig: _back
+[ 709.904700] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftFlip: 0
+[ 709.904730] Config <Info> common/settings.cpp:operator():80: DataStorage_UseVirtualSd: true
+[ 709.904751] Config <Info> common/settings.cpp:operator():80: DataStorage_UseCustomStorage: false
+[ 709.904755] Config <Info> common/settings.cpp:operator():80: System_IsNew3ds: true
+[ 709.904757] Config <Info> common/settings.cpp:operator():80: System_LLEApplets: false
+[ 709.904783] Config <Info> common/settings.cpp:operator():80: System_RegionValue: -1
+[ 709.904787] Config <Info> common/settings.cpp:operator():80: System_PluginLoader: false
+[ 709.904790] Config <Info> common/settings.cpp:operator():80: System_PluginLoaderAllowed: true
+[ 709.904793] Config <Info> common/settings.cpp:operator():80: Debugging_DelayStartForLLEModules: true
+[ 709.904796] Config <Info> common/settings.cpp:operator():80: Debugging_UseGdbstub: false
+[ 709.904798] Config <Info> common/settings.cpp:operator():80: Debugging_GdbstubPort: 24689
+[ 709.904863] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[ 709.904870] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[ 709.904875] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory motion_emu already registered
+[ 709.912146] Core <Critical> core/core.cpp:Load:265: Failed to obtain loader for content://com.android.externalstorage.documents/tree/primary%3AOld_games%2FROM/document/primary%3AOld_games%2FROM%2F3DS0511%20-%20Pokemon%20X%20(USA).3ds.7z!
+[1446.671728] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[1449.258137] Frontend <Info> main/jni/native.cpp:Java_org_citra_citra_1emu_NativeLibrary_surfaceChanged:306: Surface changed
+[1449.259678] Frontend <Info> main/jni/native.cpp:RunCitra:136: Citra starting...
+[1449.296426] Config <Info> main/jni/config.cpp:LoadINI:57: Successfully loaded /config/config.ini
+[1449.310315] Config <Info> common/settings.cpp:LogSettings:83: Citra Configuration:
+[1449.310355] Config <Info> common/settings.cpp:operator():80: Core_UseCpuJit: true
+[1449.310362] Config <Info> common/settings.cpp:operator():80: Core_CPUClockPercentage: 110
+[1449.310385] Config <Info> common/settings.cpp:operator():80: Renderer_UseGLES: true
+[1449.310389] Config <Info> common/settings.cpp:operator():80: Renderer_GraphicsAPI: Vulkan
+[1449.310392] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncShaders: false
+[1449.310396] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncPresentation: true
+[1449.310399] Config <Info> common/settings.cpp:operator():80: Renderer_SpirvShaderGen: true
+[1449.310402] Config <Info> common/settings.cpp:operator():80: Renderer_Debug: false
+[1449.310405] Config <Info> common/settings.cpp:operator():80: Renderer_UseHwShader: true
+[1449.310415] Config <Info> common/settings.cpp:operator():80: Renderer_ShadersAccurateMul: false
+[1449.310417] Config <Info> common/settings.cpp:operator():80: Renderer_UseShaderJit: true
+[1449.310421] Config <Info> common/settings.cpp:operator():80: Renderer_UseResolutionFactor: 1
+[1449.310423] Config <Info> common/settings.cpp:operator():80: Renderer_FrameLimit: 100
+[1449.310426] Config <Info> common/settings.cpp:operator():80: Renderer_VSyncNew: false
+[1449.310430] Config <Info> common/settings.cpp:operator():80: Renderer_PostProcessingShader: none (builtin)
+[1449.310433] Config <Info> common/settings.cpp:operator():80: Renderer_FilterMode: true
+[1449.310436] Config <Info> common/settings.cpp:operator():80: Renderer_TextureFilter: None
+[1449.310453] Config <Info> common/settings.cpp:operator():80: Renderer_TextureSampling: GameControlled
+[1449.310458] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Render3d: 0
+[1449.310461] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Factor3d: 0
+[1449.310466] Config <Info> common/settings.cpp:operator():80: Stereoscopy_MonoRenderOption: 0
+[1449.310470] Config <Info> common/settings.cpp:operator():80: Layout_LayoutOption: 6
+[1449.310473] Config <Info> common/settings.cpp:operator():80: Layout_SwapScreen: false
+[1449.310477] Config <Info> common/settings.cpp:operator():80: Layout_UprightScreen: false
+[1449.310532] Config <Info> common/settings.cpp:operator():80: Layout_LargeScreenProportion: 4
+[1449.310536] Config <Info> common/settings.cpp:operator():80: Utility_DumpTextures: false
+[1449.310539] Config <Info> common/settings.cpp:operator():80: Utility_CustomTextures: false
+[1449.310542] Config <Info> common/settings.cpp:operator():80: Utility_PreloadTextures: false
+[1449.310545] Config <Info> common/settings.cpp:operator():80: Utility_AsyncCustomLoading: true
+[1449.310549] Config <Info> common/settings.cpp:operator():80: Utility_UseDiskShaderCache: true
+[1449.310552] Config <Info> common/settings.cpp:operator():80: Audio_Emulation: HLE
+[1449.310556] Config <Info> common/settings.cpp:operator():80: Audio_OutputType: 0
+[1449.310568] Config <Info> common/settings.cpp:operator():80: Audio_OutputDevice: auto
+[1449.310572] Config <Info> common/settings.cpp:operator():80: Audio_InputType: 0
+[1449.310574] Config <Info> common/settings.cpp:operator():80: Audio_InputDevice: auto
+[1449.310577] Config <Info> common/settings.cpp:operator():80: Audio_EnableAudioStretching: true
+[1449.310580] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightName: ndk
+[1449.310588] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightConfig: _back
+[1449.310591] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightFlip: 0
+[1449.310594] Config <Info> common/settings.cpp:operator():80: Camera_InnerName: ndk
+[1449.310598] Config <Info> common/settings.cpp:operator():80: Camera_InnerConfig: _front
+[1449.310600] Config <Info> common/settings.cpp:operator():80: Camera_InnerFlip: 0
+[1449.310602] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftName: ndk
+[1449.310605] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftConfig: _back
+[1449.310607] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftFlip: 0
+[1449.310610] Config <Info> common/settings.cpp:operator():80: DataStorage_UseVirtualSd: true
+[1449.310612] Config <Info> common/settings.cpp:operator():80: DataStorage_UseCustomStorage: false
+[1449.310615] Config <Info> common/settings.cpp:operator():80: System_IsNew3ds: true
+[1449.310619] Config <Info> common/settings.cpp:operator():80: System_LLEApplets: false
+[1449.310622] Config <Info> common/settings.cpp:operator():80: System_RegionValue: -1
+[1449.310624] Config <Info> common/settings.cpp:operator():80: System_PluginLoader: false
+[1449.310628] Config <Info> common/settings.cpp:operator():80: System_PluginLoaderAllowed: true
+[1449.310630] Config <Info> common/settings.cpp:operator():80: Debugging_DelayStartForLLEModules: true
+[1449.310633] Config <Info> common/settings.cpp:operator():80: Debugging_UseGdbstub: false
+[1449.310636] Config <Info> common/settings.cpp:operator():80: Debugging_GdbstubPort: 24689
+[1449.311333] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[1449.311347] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory gamepad already registered
+[1449.311352] Input <Error> ./core/frontend/input.h:RegisterFactory:62: Factory motion_emu already registered
+[1449.318346] Core <Critical> core/core.cpp:Load:265: Failed to obtain loader for content://com.android.externalstorage.documents/tree/primary%3AOld_games%2FROM/document/primary%3AOld_games%2FROM%2F3DS0511%20-%20Pokemon%20X%20(USA).3ds.7z!
